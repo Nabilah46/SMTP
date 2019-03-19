@@ -15,10 +15,10 @@ public class Server
         try
         { 
             server = new ServerSocket(port); 
-            System.out.println("Server connected"); 
+            System.out.println("Server started"); 
   
             socket = server.accept(); 
-            System.out.println("Whatsup"); 
+            System.out.println("Connected"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
@@ -40,7 +40,7 @@ public class Server
                     System.out.println(i); 
                 } 
             } 
-            System.out.println("Server end"); 
+            System.out.println("Whatsup!"); 
   
             // close connection 
             socket.close(); 
