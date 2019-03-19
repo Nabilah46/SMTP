@@ -18,7 +18,7 @@ public class Server
             System.out.println("Server started"); 
   
             socket = server.accept(); 
-            System.out.println("Connected"); 
+            System.out.println("Whatsup"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
@@ -40,7 +40,7 @@ public class Server
                     System.out.println(i); 
                 } 
             } 
-            System.out.println("Whatsup!"); 
+            System.out.println("Close!"); 
   
             // close connection 
             socket.close(); 
