@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
    
     if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) 
     { 
-        printf("\n Connected \n"); 
+        printf("\n Can't connected \n"); 
         return -1; 
     } 
     send(sock , hi , strlen(hi) , 0 ); 
