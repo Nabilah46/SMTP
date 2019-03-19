@@ -5,7 +5,7 @@
 #include <string.h> 
 #include <unistd.h> 
 #include <arpa/inet.h>
-#define PORT 6000
+#define PORT 1026
    
 int main(int argc, char const *argv[]) 
 { 
